@@ -1,0 +1,3 @@
+# Unhandled Division by Zero in PHP Function
+This repository demonstrates a common error in PHP: unhandled division by zero. The `foo` function does not check for division by zero before performing the operation. This leads to an error if either of the inputs is 0.
+The solution demonstrates how to handle this situation by adding a check for zero values and returning an appropriate error message or value.
